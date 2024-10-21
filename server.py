@@ -13,7 +13,7 @@ def get_audio_formats(video_url):
 
 @app.route('/')
 def index():
-    return render_template('index.html')  # Servir el archivo HTML desde la carpeta "templates"
+    return render_template('index.html')
 
 @app.route('/formats', methods=['GET'])
 def formats():
